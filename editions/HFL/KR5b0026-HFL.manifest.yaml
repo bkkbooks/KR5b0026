@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0026/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0026/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶太玄普慈勸世經
+  date: '2015-08-28 23:47:41.447605'
+  source:
+    repository: kanripo
+    path: KR5b0026
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0026_000-HFL.yaml, hash: 'sha256:4e7fd8c5395c79c0069915897a3f7fab88d2f55202e1d7702709f00c83fe9cc1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0026_000-HFL.markers.yaml, hash: 'sha256:8cdde10f97315891d1fab41322debc41b30d13d1a038c6450ea4e2f5c7a07f67'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0026_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3355
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ee3d5d5bef42080ab1f567a379078d9f5e7637e4fa4e0695745c19ba0fb7333a
